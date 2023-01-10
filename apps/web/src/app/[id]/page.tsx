@@ -3,11 +3,11 @@ import Insights from "~/components/insights";
 import Metrics from "~/components/metrics";
 import Nav from "~/components/nav";
 
-import { getServerSession } from "@bud/auth";
+import { getServerSession } from "@beacon/auth";
 import { getMetrics, getInsights } from "~/utils/db";
 import { notFound } from "next/navigation";
-import { prisma } from "@bud/db";
-import { fromNow } from "@bud/basics";
+import { prisma } from "@beacon/db";
+import { fromNow } from "@beacon/basics";
 import dynamic from "next/dynamic";
 
 const Chart = dynamic(() => import("~/components/chart"), { suspense: true });

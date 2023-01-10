@@ -1,4 +1,3 @@
-import { MetricsContainer } from "./container";
 import { MetricsTable } from "./table";
 import { MetricsHeader } from "./header";
 
@@ -8,9 +7,8 @@ interface Props {
 
 export function EventsMetrics({ data }: Props) {
   return (
-    <MetricsContainer>
+    <MetricsTable title="Event" dataValueType="Actions" data={data}>
       <MetricsHeader title="Events" />
-      <MetricsTable data={data} />
-    </MetricsContainer>
+    </MetricsTable>
   );
 }

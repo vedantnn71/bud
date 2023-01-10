@@ -1,5 +1,5 @@
 {
-  "name": "bud",
+  "name": "beacon",
   "private": true,
   "packageManager": "pnpm@7.13.0",
   "scripts": {
@@ -22,7 +22,7 @@
     "turbo": "^1.5.5"
   },
   "devDependencies": {
-    "@bud/config": "*",
+    "@beacon/config": "*",
     "@storybook/addon-a11y": "^6.5.14",
     "@storybook/addon-actions": "^6.5.14",
     "@storybook/addon-controls": "^6.5.14",

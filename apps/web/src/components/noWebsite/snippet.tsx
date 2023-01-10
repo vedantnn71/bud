@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@bud/ui";
-import { ClipboardCheckIcon, ClipboardIcon } from "@bud/ui";
+import { Button } from "@beacon/ui";
+import { ClipboardCheckIcon, ClipboardIcon } from "@beacon/ui";
 
 import { cx } from "class-variance-authority";
 import { useState } from "react";

@@ -2,10 +2,10 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { Prisma } from "@prisma/client";
 import Hashids from "hashids";
 
-import { prisma } from "@bud/db";
-import { isExpired } from "@bud/basics";
+import { prisma } from "@beacon/db";
+import { isExpired } from "@beacon/basics";
 import { getSession, parseAgent } from "~/utils";
-import { getServerSession } from "@bud/auth";
+import { getServerSession } from "@beacon/auth";
 import { load } from "cheerio";
 import cuid from "cuid";
 
@@ -23,7 +23,7 @@ type BodyParams = {
 type Events = Record<string, Record<string, boolean>>;
 type QueryParams = Record<string, string>;
 
-const hashid = new Hashids("bud", 8);
+const hashid = new Hashids("beacon", 8);
 
 export default async function handler(
   req: NextApiRequest,

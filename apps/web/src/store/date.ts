@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { fromNow } from "@bud/basics";
+import { fromNow } from "@beacon/basics";
 
 interface DateRange {
   from: Date;

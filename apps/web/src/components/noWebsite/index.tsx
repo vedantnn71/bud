@@ -1,4 +1,4 @@
-import { BarIcon } from "@bud/ui";
+import { BarIcon } from "@beacon/ui";
 import { Suspense } from "react";
 import Snippet from "./snippet";
 
@@ -11,7 +11,7 @@ export default function NoWebsite() {
           Looks like you have not linked any of your website yet..
         </h1>
         <p className="space-lg text-sm text-gray-700 dark:text-gray-300 md:text-base">
-          No worries, you can connect your website with bud by just embedding
+          No worries, you can connect your website with beacon by just embedding
           the script below in your website.
         </p>
 

@@ -1,2 +1,2 @@
-module.exports = require("@bud/config/tailwind.config.cjs");
+module.exports = require("@beacon/config/tailwind.config.cjs");
 

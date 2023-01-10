@@ -7,6 +7,6 @@ export const isDoNotTrackEnabled = doNotTrack === '1';
 export const { currentScript: script } = document;
 
 if (!script) {
-  throw new Error("[bud] unable to get the script for bud analytics")
+  throw new Error("[beacon] unable to get the script for beacon analytics")
 }
 

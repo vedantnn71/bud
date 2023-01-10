@@ -1,5 +1,5 @@
-import { SearchIcon, HelpIcon, MenuIcon } from "@bud/ui";
-import { Logo } from "@bud/ui";
+import { SearchIcon, HelpIcon, MenuIcon } from "@beacon/ui";
+import { Logo } from "@beacon/ui";
 import WebsiteCombobox from "~/components/websiteCombobox";
 import Feedback from "~/components/widgets/feedback";
 import SettingsDropdown from "~/components/settingsDropdown";
@@ -27,7 +27,7 @@ export default function Nav({
       <div className="flex items-center gap-2 text-xl font-medium text-gray-800 dark:text-gray-200">
         <Link href="/" className="flex cursor-pointer items-center gap-2">
           <Logo className="h-6 w-6" />
-          <span>Bud</span>
+          <span>Beacon</span>
         </Link>
         {!hideWebsiteSelect && (
           <div className="gap-3 flex items-center">

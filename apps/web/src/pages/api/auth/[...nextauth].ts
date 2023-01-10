@@ -1,2 +1,2 @@
-import { Auth } from "@bud/auth";
+import { Auth } from "@beacon/auth";
 export default Auth;

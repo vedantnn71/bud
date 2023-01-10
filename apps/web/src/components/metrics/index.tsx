@@ -18,7 +18,7 @@ export default function Metrics({ data }: Props) {
   const { pages, events, countries, browsers, devices, queryParams } = data;
 
   return (
-    <div className="wrap mx-6 grid auto-rows-auto grid-cols-1 gap-4 md:grid-cols-2">
+    <div className="wrap grid auto-rows-auto grid-cols-1 gap-4 md:grid-cols-2">
       {hasData(pages) && <PagesMetrics data={pages} />}
       {hasData(queryParams) && <UtmMetrics data={queryParams} />}
       {hasData(countries) && <CountriesMetrics data={countries} />}

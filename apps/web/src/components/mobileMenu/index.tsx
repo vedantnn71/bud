@@ -1,7 +1,7 @@
 "use client";
 
 import type { PropsWithChildren } from "react";
-import { CrossIcon, HelpIcon, SearchIcon } from "@bud/ui";
+import { CrossIcon, HelpIcon, SearchIcon } from "@beacon/ui";
 import WebsiteCombobox from "~/components/websiteCombobox";
 import Feedback from "~/components/widgets/feedback";
 import Settings from "./settings";

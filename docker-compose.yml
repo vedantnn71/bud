@@ -10,7 +10,7 @@ services:
       POSTGRES_PASSWORD: 321
       POSTGRES_DB: app
     networks:
-      - bud
+      - beacon
       
 networks:
-  bud:
+  beacon:

@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { getServerSession } from "@bud/auth";
-import { prisma } from "@bud/db";
-import { fromNow } from "@bud/basics";
+import { getServerSession } from "@beacon/auth";
+import { prisma } from "@beacon/db";
+import { fromNow } from "@beacon/basics";
 
 export default async function handler(
   req: NextApiRequest,

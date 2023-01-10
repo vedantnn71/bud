@@ -1,5 +1,5 @@
 {
-  "name": "@bud/tracker",
+  "name": "@beacon/tracker",
   "version": "0.0.0",
   "type": "module",
   "main": "./src/track.ts",

@@ -1,6 +1,6 @@
 if (!(typeof window !== "undefined" && window.document)) {
   throw new Error(
-    "[bud] stopping the execution as not currently on client side"
+    "[beacon] stopping the execution as not currently on client side"
   );
 }
 
@@ -14,7 +14,7 @@ import {
 import { COLLECT_API } from "./constants";
 
 if (isDoNotTrackEnabled) {
-  throw new Error("[bud] not tracking as do not track is enabled");
+  throw new Error("[beacon] not tracking as do not track is enabled");
 }
 
 let visitTime = 0;

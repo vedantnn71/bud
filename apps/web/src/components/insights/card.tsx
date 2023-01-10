@@ -1,7 +1,7 @@
 "use client";
 
 import type { Mode } from "~/store";
-import { ArrowUpIcon } from "@bud/ui";
+import { ArrowUpIcon } from "@beacon/ui";
 
 import { cx } from "class-variance-authority";
 import { useMode } from "~/store";

@@ -1,5 +1,5 @@
 import type { Session } from "next-auth";
-import { UserIcon } from "@bud/ui";
+import { UserIcon } from "@beacon/ui";
 import SettingsDropdown from "~/components/settingsDropdown";
 
 import useSWR from "swr";

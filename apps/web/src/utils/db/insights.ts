@@ -1,4 +1,4 @@
-import { prisma } from "@bud/db";
+import { prisma } from "@beacon/db";
 
 interface Params {
   id: string;

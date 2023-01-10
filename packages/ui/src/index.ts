@@ -1,4 +1,4 @@
-export * as logo from "./assets/logo.png";
+export * as logo from "./assets/logo.svg";
 
 export * from "./avatar";
 export * from "./logo";

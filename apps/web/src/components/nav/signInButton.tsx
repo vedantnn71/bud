@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@bud/ui";
+import { Button } from "@beacon/ui";
 import { useRouter } from "next/navigation";
 
 export default function SignInButton() {

@@ -1,4 +1,4 @@
-import { ZapIcon } from "@bud/ui";
+import { ZapIcon } from "@beacon/ui";
 import Nav from "~/components/nav";
 import Form from "./form";
 

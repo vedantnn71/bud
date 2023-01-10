@@ -1,5 +1,5 @@
 {
-  "name": "@bud/config",
+  "name": "@beacon/config",
   "version": "0.1.0",
   "main": "./tailwind.config.cjs",
   "license": "MIT",

@@ -1,6 +1,6 @@
 import type { Metrics } from "~/types";
 
-import { prisma } from "@bud/db";
+import { prisma } from "@beacon/db";
 import {
   getDaysBetween,
   getWeeksBetween,
@@ -12,7 +12,7 @@ import {
   toDay,
   toWeek,
   toMonth,
-} from "@bud/basics";
+} from "@beacon/basics";
 
 interface Params {
   id: string;

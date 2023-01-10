@@ -33,9 +33,8 @@ export function UtmMetrics({ data }: Props) {
   ];
 
   return (
-    <MetricsContainer>
-      <MetricsHeader title="UTM" options={options} />
-      <MetricsTable data={data[utmParam] || {}} />
-    </MetricsContainer>
+    <MetricsTable title="Source" dataValueType="Views" data={data[utmParam] || {}}>
+      <MetricsHeader title="kources" options={options} />
+    </MetricsTable>
   );
 }

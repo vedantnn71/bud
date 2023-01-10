@@ -1,4 +1,4 @@
-import { getServerSession } from "@bud/auth";
+import { getServerSession } from "@beacon/auth";
 import { redirect } from "next/navigation";
 
 export async function protect() {

@@ -4,8 +4,8 @@ import type { Metrics } from "~/types";
 import { Bar, XAxis, Tooltip, ResponsiveContainer, BarChart } from "recharts";
 import { BarTooltip } from "./tooltip";
 
-import { formatDate } from "@bud/basics";
-import { primary, gray } from "@bud/config/colors";
+import { formatDate } from "@beacon/basics";
+import { primary, gray } from "@beacon/config/colors";
 import { useMode } from "~/store";
 import { useTheme } from "@wits/next-themes";
 

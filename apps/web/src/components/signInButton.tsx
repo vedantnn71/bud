@@ -1,7 +1,7 @@
 "use client";
 
-import { GoogleIcon } from "@bud/ui";
-import { Button } from "@bud/ui";
+import { GoogleIcon } from "@beacon/ui";
+import { Button } from "@beacon/ui";
 
 import { useState } from "react";
 import { signIn } from "next-auth/react";
@@ -18,6 +18,7 @@ export default function SignInButton() {
     <Button
       intent="primary"
       size="lg"
+      className="my-2"
       onClick={handleSignIn}
       loading={loading}
       fullWidth

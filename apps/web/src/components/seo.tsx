@@ -1,12 +1,12 @@
 export default function DefaultSeo() {
   const opts = {
     title:
-      "Bud – fast, simple and privacy friendly analytics that you will love using.",
+      "Beacon – fast, simple and privacy friendly analytics that you will love using.",
     description:
-      "Bud is a fast, simple and privacy friendly analytics tool that you will love using.",
+      "Beacon is a fast, simple and privacy friendly analytics tool that you will love using.",
     socialImg:
-      "https://github.com/vedantnn71/bud/raw/main/apps/web/public/social.png",
-    url: "https://github.com/vedantnn71/bud",
+      "https://github.com/vedantnn71/beacon/raw/main/apps/web/public/social.png",
+    url: "https://github.com/vedantnn71/beacon",
     favicon: "/favicon.ico",
     handle: "@usebud",
   };

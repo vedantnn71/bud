@@ -1,4 +1,4 @@
-import { Loading } from "@bud/ui";
+import { Loading } from "@beacon/ui";
 
 export default Loading;
 

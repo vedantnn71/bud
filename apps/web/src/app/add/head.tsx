@@ -4,7 +4,7 @@ export default function Head() {
   return (
     <>
       <DefaultSeo />
-      <title>Bud − Add your website</title>
+      <title>Beacon − Add your website</title>
     </>
   );
 }

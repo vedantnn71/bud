@@ -1,7 +1,7 @@
 "use client";
 
 import type { Mode } from "~/store";
-import { EyeIcon, UserIcon } from "@bud/ui";
+import { EyeIcon, UserIcon } from "@beacon/ui";
 
 interface BarTooltipProps {
   active?: boolean;

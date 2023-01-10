@@ -1,4 +1,4 @@
-const { content, ...config } = require("@bud/config/tailwind.config.cjs");
+const { content, ...config } = require("@beacon/config/tailwind.config.cjs");
 
 module.exports = {
   content: ["./apps/web/src/**/*.tsx", "./packages/*/src/**/*.tsx"],

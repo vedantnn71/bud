@@ -7,10 +7,10 @@ export default {
   experimental: {
     appDir: true,
     transpilePackages: [
-      "@bud/db",
-      "@bud/ui",
-      "@bud/auth",
-      "@bud/basics",
+      "@beacon/db",
+      "@beacon/ui",
+      "@beacon/auth",
+      "@beacon/basics",
     ],
     serverComponentsExternalPackages: [
       "prisma",

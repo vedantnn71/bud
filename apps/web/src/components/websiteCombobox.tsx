@@ -3,7 +3,7 @@
 import type { Website } from "@prisma/client";
 import { Fragment } from "react";
 import { Combobox, Transition } from "@headlessui/react";
-import { CheckIcon, SelectIcon } from "@bud/ui";
+import { CheckIcon, SelectIcon } from "@beacon/ui";
 
 import { getAllWebsites } from "~/utils/query";
 import { useRouter, usePathname } from "next/navigation";

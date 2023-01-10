@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { prisma } from "@bud/db";
+import { prisma } from "@beacon/db";
 import { env } from "~/env/server.mjs";
 import cuid from "cuid";
 

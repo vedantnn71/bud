@@ -1,6 +1,6 @@
 "use client";
 
-import { UserIcon } from "@bud/ui";
+import { UserIcon } from "@beacon/ui";
 import SettingsDropdown from "~/components/settingsDropdown";
 
 import { useSession } from "next-auth/react";

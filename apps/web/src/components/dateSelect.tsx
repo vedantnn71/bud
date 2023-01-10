@@ -5,12 +5,12 @@ import {
   ChevronDownIcon,
   CalendarIcon,
   CheckIcon,
-} from "@bud/ui";
-import { Button } from "@bud/ui";
+} from "@beacon/ui";
+import { Button } from "@beacon/ui";
 import * as SelectPrimitive from "@radix-ui/react-select";
 
 import { cx } from "class-variance-authority";
-import { fromNow } from "@bud/basics";
+import { fromNow } from "@beacon/basics";
 import { useState, useEffect } from "react";
 import { useDate } from "~/store";
 

@@ -5,7 +5,7 @@ export default function Head() {
     <>
       <DefaultSeo />
       <title>
-        Bud – fast, simple and privacy friendly analytics that you will love
+        Beacon – fast, simple and privacy friendly analytics that you will love
         using.
       </title>
     </>

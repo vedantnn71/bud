@@ -1,6 +1,6 @@
 import DefaultSeo from "~/components/seo";
 
-import { prisma } from "@bud/db";
+import { prisma } from "@beacon/db";
 
 interface Props {
   params: { id: string };
@@ -26,7 +26,7 @@ export default async function Head({ params }: Props) {
 
   return (
     <>
-      <title>Bud</title>
+      <title>Beacon</title>
       <DefaultSeo />
     </>
   );

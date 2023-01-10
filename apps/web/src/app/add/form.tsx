@@ -1,8 +1,8 @@
 "use client";
 
 import type { Resolver } from "react-hook-form";
-import { Button, Label } from "@bud/ui";
-import { PlusIcon } from "@bud/ui";
+import { Button, Label } from "@beacon/ui";
+import { PlusIcon } from "@beacon/ui";
 
 import { cx } from "class-variance-authority";
 import { useRouter } from "next/navigation";

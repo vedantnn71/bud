@@ -1,16 +1,16 @@
 ![](https://user-images.githubusercontent.com/70624701/205416407-dfdbe14d-816f-4e33-aad6-be6f49e64bde.png)
 
 <p align="center">
-    <img src="https://img.shields.io/tokei/lines/github/vedantnn71/bud">
-    <img src="https://img.shields.io/github/languages/top/vedantnn71/bud">
+    <img src="https://img.shields.io/tokei/lines/github/vedantnn71/beacon">
+    <img src="https://img.shields.io/github/languages/top/vedantnn71/beacon">
     <a href="https://discord.gg/jXpsbRU2Rr">
       <img src="https://img.shields.io/badge/discord-join-blue" />
     </a>
 </p>
 
-Bud is an analytics tool that you always wanted to use, it's minimal, fast and privacy focused. It's script is < 1.3kb and doesn't affect your page load times at all.
+Beacon is an analytics tool that you always wanted to use, it's minimal, fast and privacy focused. It's script is < 1.3kb and doesn't affect your page load times at all.
 
-> NOTE: Bud is highly under development and not in condition to use right now.
+> NOTE: Beacon is highly under development and not in condition to use right now.
 
 # Features
 - [x] ⚡ Blazing fast tracking script (1.2kb)
@@ -24,7 +24,7 @@ Bud is an analytics tool that you always wanted to use, it's minimal, fast and p
 
 # Monorepo
 
-- `web`: The bud web app.
+- `web`: The beacon web app.
 
 ## /packages
 

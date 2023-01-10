@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { SignOutIcon, UserIcon, SunIcon, MoonIcon } from "@bud/ui";
+import { SignOutIcon, UserIcon, SunIcon, MoonIcon } from "@beacon/ui";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 
 import { signOut } from "next-auth/react";

@@ -1,4 +1,3 @@
-import { MetricsContainer } from "./container";
 import { MetricsTable } from "./table";
 import { MetricsHeader } from "./header";
 
@@ -8,9 +7,8 @@ interface Props {
 
 export function DevicesMetrics({ data }: Props) {
   return (
-    <MetricsContainer>
-      <MetricsHeader title="Top Devices" />
-      <MetricsTable data={data} />
-    </MetricsContainer>
+    <MetricsTable title="Device" dataValueType="Views" data={data}>
+      <MetricsHeader title="Devices" />
+    </MetricsTable>
   );
 }
